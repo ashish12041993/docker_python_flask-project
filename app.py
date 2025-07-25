@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "My name is Ashish Kumar Vishwakarma. I am a multicloud DevOps Engineer and currently associated with Klearnow"
+    return "Deploying Azure App services"
 
 
 if __name__ == "__main__":
