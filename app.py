@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Deploying Azure App services"
+    return "Deploying Azure App services named appone"
 
 
 if __name__ == "__main__":
